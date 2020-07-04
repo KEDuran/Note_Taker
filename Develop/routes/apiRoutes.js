@@ -3,7 +3,7 @@ var fs = require("fs");
 // Adding path module to help navigate directories
 var path = require("path");
 // Creating variable to hold db.json path
-const dbDir = path.resolve(__dirname, "../../db");
+const dbDir = path.resolve(__dirname, "../db");
 /*Variable to keep track of unique IDs
 Starting at 2 because sample db.json already had an entry*/
 var idCounter = 2;
@@ -15,7 +15,7 @@ module.exports = function (app) {
 		// Used to read the notes from db.json
 		fs.readFile(path.resolve(dbDir, "db.json"), "utf8", function (err, data) {
 			// Populates the notes data from db.json file
-			res.json(data);
+			res.json(JSON.stringify(data));
 		});
 	});
 	// API POST request for the notes in db.json file
