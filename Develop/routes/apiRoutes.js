@@ -24,10 +24,8 @@ module.exports = function (app) {
 		let notesObject = [];
 
 		// Used to read the notes from db.json
-		fs.readFile(path.resolve(dbDir, "db.json"), "utf8", function (err, data) {
-			if (err) throw err;
-			notesObject = JSON.parse(data);
-		});
+		let data = fs.readFileSync(path.resolve(dbDir, "db.json"), "utf8");
+		notesObject = JSON.parse(data);
 
 		// representing the new note with ID
 		let newNoteObject = {
@@ -38,7 +36,7 @@ module.exports = function (app) {
 		// Appending new note to the notesObject variable
 		notesObject.push(newNoteObject);
 		// Used to add the new notes to db.json file
-		fs.writeFile(
+		fs.writeFileSync(
 			path.resolve(dbDir, "db.json"),
 			JSON.stringify(notesObject),
 			function (err) {
@@ -55,11 +53,11 @@ module.exports = function (app) {
 	app.delete("/api/notes/:id", function (req, res) {
 		// declaring an empy notesObject array
 		let notesObject = [];
+
 		// Used to read the notes from db.json
-		fs.readFile(path.resolve(dbDir, "db.json"), "utf8", function (err, data) {
-			if (err) throw err;
-			notesObject = JSON.parse(data);
-		});
+		let data = fs.readFileSync(path.resolve(dbDir, "db.json"), "utf8");
+		notesObject = JSON.parse(data);
+
 		// temporary variable to keep track of index of note that needs to be deleted
 		let noteIndex = 0;
 		// for loop to delete note
@@ -72,7 +70,7 @@ module.exports = function (app) {
 		// splice method to target and delete specified note
 		notesObject.splice(noteIndex, 1);
 		// Used to overwrite db.json file to update notes in file
-		fs.writeFile(
+		fs.writeFileSync(
 			path.resolve(dbDir, "db.json"),
 			JSON.stringify(notesObject),
 			function (err) {
