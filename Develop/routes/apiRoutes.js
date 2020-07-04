@@ -69,5 +69,15 @@ module.exports = function (app) {
 		}
 		// splice method to target and delete specified note
 		notesObject.splice(noteIndex, 1);
+		// Used to overwrite db.json file to update notes in file
+		fs.writeFile(
+			path.resolve(dbDir, "db.json"),
+			JSON.stringify(notesObject),
+			function (err) {
+				if (err) {
+					return console.log(err);
+				}
+			}
+		);
 	});
 };
