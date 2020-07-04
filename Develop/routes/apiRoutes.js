@@ -19,14 +19,14 @@ module.exports = function (app) {
 	// API POST request for the notes in db.json file
 	app.post("/api/notes", function (req, res) {
 		// declaring an empy notesObject array
-        var notesObject = [];
-        
+		var notesObject = [];
+
 		// Used to read the notes from db.json
 		fs.readFile(path.resolve(dbDir, "db.json"), "utf8", function (err, data) {
 			if (err) throw err;
 			notesObject = JSON.parse(data);
-        });
-        
+		});
+
 		// representing the new note with ID
 		var newNoteObject = {
 			id: idCounter,
@@ -50,4 +50,5 @@ module.exports = function (app) {
 		idCounter += 1;
 	});
 	// API DELETE request for the notes in db.json file
+	app.delete("/api/notes/:id", function (req, res) {});
 };
