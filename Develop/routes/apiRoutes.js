@@ -58,6 +58,8 @@ module.exports = function (app) {
 			if (err) throw err;
 			notesObject = JSON.parse(data);
 		});
+		// temporary variable to keep track of index of note that needs to be deleted
+		let noteIndex = 0;
 		// for loop to delete note
 		for (var i = 0; i < notesObject.length; i++) {
 			if (notesObject[i].id === req.params.id) {
