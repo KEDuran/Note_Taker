@@ -7,5 +7,7 @@ var path = require("path");
 // exporting these html routes for use in other files
 module.exports = function (app) {
 	// HTML GET request for index.html
+	app.get("*", function (req, res) {});
 	// HTML GET request for notes.html
+	app.get("/notes", function (req, res) {});
 };
