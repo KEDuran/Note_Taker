@@ -14,5 +14,6 @@ module.exports = function (app) {
 		});
 	});
 	// API POST request for the notes in db.json file
+	app.post("/api/notes", function (req, res) {});
 	// API DELETE request for the notes in db.json file
 };
