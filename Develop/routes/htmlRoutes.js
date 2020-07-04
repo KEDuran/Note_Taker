@@ -12,6 +12,6 @@ module.exports = function (app) {
 	});
 	// HTML GET request to show notes.html
 	app.get("/notes", function (req, res) {
-		res.sendFile(path.join(__dirname, "../assets.notes.html"));
+		res.sendFile(path.join(__dirname, "../assets/notes.html"));
 	});
 };
