@@ -7,7 +7,7 @@ const dbDir = path.resolve(__dirname, "../../db");
 module.exports = function (app) {
 	// API GET request for the notes in db.json file
 	app.get("/api/notes", function (req, res) {
-		// Used to red the notes from db.json
+		// Used to read the notes from db.json
 		fs.readFile(path.resolve(dbDir, "db.json"), "utf8", function (err, data) {
 			// Populates the notes data from db.json file
 			res.json(data);
@@ -34,6 +34,8 @@ module.exports = function (app) {
 				}
 			}
 		);
+		// returns the new note to the front-end client side
+		res.json(req.body);
 	});
 	// API DELETE request for the notes in db.json file
 };
