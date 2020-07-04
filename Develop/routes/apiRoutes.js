@@ -19,7 +19,7 @@ module.exports = function (app) {
 	// API POST request for the notes in db.json file
 	app.post("/api/notes", function (req, res) {
 		// declaring an empy notesObject array
-		var notesObject = [];
+		let notesObject = [];
 
 		// Used to read the notes from db.json
 		fs.readFile(path.resolve(dbDir, "db.json"), "utf8", function (err, data) {
@@ -28,7 +28,7 @@ module.exports = function (app) {
 		});
 
 		// representing the new note with ID
-		var newNoteObject = {
+		let newNoteObject = {
 			id: idCounter,
 			title: req.body.title,
 			text: req.body.text,
