@@ -2,6 +2,8 @@
 var fs = require("fs");
 // Creating variable to hold db.json path
 const dbDir = path.resolve(__dirname, "../../db");
+// Variable to keep track of unique IDs
+var idCounter = 
 
 // Adding API routes here
 module.exports = function (app) {
