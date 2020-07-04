@@ -67,5 +67,7 @@ module.exports = function (app) {
 				break;
 			}
 		}
+		// splice method to target and delete specified note
+		notesObject.splice(noteIndex, 1);
 	});
 };
