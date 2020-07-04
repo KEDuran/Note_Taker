@@ -58,5 +58,10 @@ module.exports = function (app) {
 			if (err) throw err;
 			notesObject = JSON.parse(data);
 		});
+		// for loop to delete note
+		for (var i = 0; i < notesObject.length; i++) {
+			if (notesObject[i].id === req.params.id) {
+			}
+		}
 	});
 };
