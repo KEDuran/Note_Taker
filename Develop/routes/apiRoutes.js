@@ -19,14 +19,22 @@ module.exports = function (app) {
 	// API POST request for the notes in db.json file
 	app.post("/api/notes", function (req, res) {
 		// declaring an empy notesObject array
-		var notesObject = [];
+        var notesObject = [];
+        
 		// Used to read the notes from db.json
 		fs.readFile(path.resolve(dbDir, "db.json"), "utf8", function (err, data) {
 			if (err) throw err;
 			notesObject = JSON.parse(data);
-		});
+        });
+        
+		// representing the new note with ID
+		var newNoteObject = {
+			id: idCounter,
+			title: req.body.title,
+			text: req.body.text,
+		};
 		// Appending new note to the notesObject variable
-		notesObject.push(req.body);
+		notesObject.push(newNoteObject);
 		// Used to add the new notes to db.json file
 		fs.writeFile(
 			path.resolve(dbDir, "db.json"),
@@ -37,12 +45,6 @@ module.exports = function (app) {
 				}
 			}
 		);
-		// representing the new note with ID
-		var newNoteObject = {
-			id: idCounter,
-			title: req.body.title,
-			text: req.body.text,
-		};
 		// returns the new note to the front-end client side
 		res.json(newNoteObject);
 		idCounter += 1;
