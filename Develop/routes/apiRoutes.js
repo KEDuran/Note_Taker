@@ -15,7 +15,7 @@ module.exports = function (app) {
 		// Used to read the notes from db.json
 		fs.readFile(path.resolve(dbDir, "db.json"), "utf8", function (err, data) {
 			// Populates the notes data from db.json file
-			res.json(JSON.stringify(data));
+			res.json(JSON.parse(data));
 		});
 	});
 	// API POST request for the notes in db.json file
