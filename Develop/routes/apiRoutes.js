@@ -44,7 +44,8 @@ module.exports = function (app) {
 			text: req.body.text,
 		};
 		// returns the new note to the front-end client side
-		res.json(req.body);
+		res.json(newNoteObject);
+		idCounter += 1;
 	});
 	// API DELETE request for the notes in db.json file
 };
