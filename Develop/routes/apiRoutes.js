@@ -37,6 +37,12 @@ module.exports = function (app) {
 				}
 			}
 		);
+		// representing the new note with ID
+		var newNoteObject = {
+			id: idCounter,
+			title: req.body.title,
+			text: req.body.text,
+		};
 		// returns the new note to the front-end client side
 		res.json(req.body);
 	});
