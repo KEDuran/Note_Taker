@@ -51,5 +51,8 @@ In order to successfully develop and test this assignment, the following items m
 - **Node.js** - Make sure Node.js is installed in your machine. If Node.js is not installed on your machine, [click here](https://nodejs.org/en/) to download the application.
 - **NPM Install** - The `package.json` file included in this Note Taker repo already lists all NPM modules and depencies that are required to successfully run this application. Please make sure to run the `NPM install` in the root directory to access all used\required modules.
 
+## Final Output
+The demo recording below demonstrates that the note taker application I developed and deployed on Heroku for this assignment meets the acceptance criteria outlined for this assignment. The application allows the users to (a) create and save notes, (b) view previous notes, and (c) delete previously saved notes.
+
 
 
