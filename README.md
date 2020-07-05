@@ -9,7 +9,12 @@ The goal of this assignment is to create an application that can be used to writ
 
 ## Table of Contents
 
-This section will be updated when ReadMe is finalized.
+Please use the table of contents' links provided below to navigate through the ReadMe.
+
+- [Links for Submission Items](#links-for-submission-items)
+- [Assignment Scope](#assignment-scope)
+- [Installation](#installation)
+- [Final Output](#final-output)
 
 ## Links for Submission Items
 
