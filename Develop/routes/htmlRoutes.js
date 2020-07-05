@@ -6,12 +6,12 @@ var path = require("path");
 
 // exporting these html routes for use in other files
 module.exports = function (app) {
-	// HTML GET request to show index.html
-	app.get("*", function (req, res) {
-		res.sendFile(path.join(__dirname, "../assets/index.html"));
-	});
 	// HTML GET request to show notes.html
 	app.get("/notes", function (req, res) {
-		res.sendFile(path.join(__dirname, "../assets/notes.html"));
+		res.sendFile(path.join(__dirname, "../public/notes.html"));
+	});
+	// HTML GET request to show index.html
+	app.get("*", function (req, res) {
+		res.sendFile(path.join(__dirname, "../public/index.html"));
 	});
 };
