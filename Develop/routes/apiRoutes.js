@@ -20,7 +20,7 @@ module.exports = function (app) {
 	});
 	// API POST request for the notes in db.json file
 	app.post("/api/notes", function (req, res) {
-		// declaring an empy notesObject array
+		// declaring an empty notesObject array
 		let notesObject = [];
 
 		// Used to read the notes from db.json
@@ -51,7 +51,7 @@ module.exports = function (app) {
 	});
 	// API DELETE request for the notes in db.json file
 	app.delete("/api/notes/:id", function (req, res) {
-		// declaring an empy notesObject array
+		// declaring an empty notesObject array
 		let notesObject = [];
 
 		// Used to read the notes from db.json
