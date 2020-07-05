@@ -9,9 +9,9 @@ The goal of this assignment is to create an application that can be used to writ
 
 ### Resource Reference
 
-When developing this assignment, I reference and leverages the sample code provided in class for _Activity 15 - (Mini Project) Hot Restaurant_. Please note - I refactored / modified any leveraged code to meet the functionality needs for this note take assignment.
+When developing this assignment, I reference and leverages the sample code provided in class for _Activity 15 - (Mini Project) Hot Restaurant_. Please note that I refactored / modified any leveraged code to meet the functionality needs for this note taker assignment.
 
-Click on the provided link to access the activity's repo: (Activity 15 - (Mini Project) Hot Restaurant)[https://github.com/the-Coding-Boot-Camp-at-UT/UT-AUS-FSF-PT-04-2020-U-C-MTTH/tree/master/01-Class-Content/11-express/01-Activities/15-HotRestaurant].
+Click on the provided link to access the activity's repo: [Activity 15 - Mini Project- Hot Restaurant](https://github.com/the-Coding-Boot-Camp-at-UT/UT-AUS-FSF-PT-04-2020-U-C-MTTH/tree/master/01-Class-Content/11-express/01-Activities/15-HotRestaurant).
 
 ## Table of Contents
 
@@ -21,8 +21,8 @@ This section will be updated when ReadMe is finalized.
 
 Links will be provided for each submission item once the assignment is complete and deployed.
 
-- URL link to GitHub repo used to develop this assignment - (GitHub Repo for Note Taker Assignment)[https://github.com/KEDuran/Note_Taker]
-- URL link to deployed application on Heroku - (Note Take Application on Heroku)[https://note-taker-ked.herokuapp.com/]
+- URL link to GitHub repo used to develop this assignment - [GitHub Repo for Note Taker Assignment](https://github.com/KEDuran/Note_Taker)
+- URL link to deployed application on Heroku - [Note Take Application on Heroku](https://note-taker-ked.herokuapp.com/)
 
 ## Assignment Scope
 
