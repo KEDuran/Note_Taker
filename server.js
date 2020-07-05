@@ -10,6 +10,7 @@ var PORT = process.env.PORT || 8080;
 // Sets up the express app variable to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static("Develop/public"));
 
 /* Lines below point our server to a series of "route" files and "map" out 
 how to respond when users visit or request data from different URLs.*/
