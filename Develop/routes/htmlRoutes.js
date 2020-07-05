@@ -8,10 +8,10 @@ var path = require("path");
 module.exports = function (app) {
 	// HTML GET request to show index.html
 	app.get("*", function (req, res) {
-		res.sendFile(path.join(__dirname, "../public/assets/index.html"));
+		res.sendFile(path.join(__dirname, "../public/index.html"));
 	});
 	// HTML GET request to show notes.html
 	app.get("/notes", function (req, res) {
-		res.sendFile(path.join(__dirname, "../public/assets/notes.html"));
+		res.sendFile(path.join(__dirname, "../public/notes.html"));
 	});
 };
