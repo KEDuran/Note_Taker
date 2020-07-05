@@ -51,6 +51,5 @@ In order to successfully develop and test this assignment, the following items m
 - **Node.js** - Make sure Node.js is installed in your machine. If Node.js is not installed on your machine, [click here](https://nodejs.org/en/) to download the application.
 - **NPM Install** - The `package.json` file included in this Note Taker repo already lists all NPM modules and depencies that are required to successfully run this application. Please make sure to run the `NPM install` in the root directory to access all used\required modules.
 
-### Testings
 
-When checking to see if all applicable unit tests pass , make sure to run the `npm run test` command in your terminal each time you would like to test the application.
+
