@@ -20,8 +20,8 @@ Please use the table of contents provided below to navigate through the ReadMe.
 
 Here are the links to the required MVP items for this assignment. I will also be submitting these same items/links on the Boot Camp Spot portal.
 
-- URL link to GitHub repo used to develop this assignment - [GitHub Repo for Note Taker Assignment](https://github.com/KEDuran/Note_Taker)
-- URL link to deployed application on Heroku - [Note Take Application on Heroku](https://note-taker-ked.herokuapp.com/)
+- URL link to GitHub repo used for this assignment - [GitHub Repo for Note Taker Assignment](https://github.com/KEDuran/Note_Taker)
+- URL link to deployed application on Heroku - [Note Taker Application on Heroku](https://note-taker-ked.herokuapp.com/)
 
 ## Assignment Scope
 
@@ -58,9 +58,9 @@ In order to successfully develop and test this assignment, the following items m
 
 ## Reference Material
 
-When developing this assignment, I referenced and leveraged the sampled code provided in class for `Activity 15 (Mini-Project) - Hot Restaurant`. Please note that I refactored / modified any leveraged code to meet the functionality needs for this note taker application.
+When developing the note taker application, I referenced and leveraged the sampled code provided in class for `Activity 15 (Mini-Project) - Hot Restaurant`. Please note that I refactored / modified any leveraged code to meet the functionality needs for this note taker application.
 
-- Click on the provided link to access the repo for Activity 15: [Activity 15 - Mini Project- Hot Restaurant](https://github.com/the-Coding-Boot-Camp-at-UT/UT-AUS-FSF-PT-04-2020-U-C-MTTH/tree/master/01-Class-Content/11-express/01-Activities/15-HotRestaurant).
+- Click on the provided link to access the activty's repo: [Activity 15 - Mini Project- Hot Restaurant](https://github.com/the-Coding-Boot-Camp-at-UT/UT-AUS-FSF-PT-04-2020-U-C-MTTH/tree/master/01-Class-Content/11-express/01-Activities/15-HotRestaurant).
 
 ## Final Output
 
@@ -72,6 +72,6 @@ The demo recording below demonstrates that the note taker application developed 
 
 ### Demo Recording
 
-The demo recording listed below shows the functionality of the Note Taker application that I currently hvae deployed in Heroku.
+The demo recording listed below shows the functionality of the Note Taker application that I currently have deployed in Heroku.
 
 ![Note Take Demo](./Demo/Note_Taker_Demo.gif)
