@@ -7,12 +7,6 @@
 
 The goal of this assignment is to create an application that can be used to write, save, and delete notes entered by an end user. This application has both a front-end and back-end environment. The code for the front-end of the note taker application was already provided, so the main goal for students was to develop the back-end of the application and connect the developed back-end to the provided front-end code.
 
-#### Reference Material
-
-When developing this assignment, I reference and leverages the sample code provided in class for `Activity 15 - (Mini Project) Hot Restaurant`. Please note that I refactored / modified any leveraged code to meet the functionality needs for this note taker assignment.
-
-- Click on the provided link to access the activity's repo: [Activity 15 - Mini Project- Hot Restaurant](https://github.com/the-Coding-Boot-Camp-at-UT/UT-AUS-FSF-PT-04-2020-U-C-MTTH/tree/master/01-Class-Content/11-express/01-Activities/15-HotRestaurant).
-
 ## Table of Contents
 
 This section will be updated when ReadMe is finalized.
@@ -56,6 +50,12 @@ In order to successfully develop and test this assignment, the following items m
 
 - **Node.js** - Make sure Node.js is installed in your machine. If Node.js is not installed on your machine, [click here](https://nodejs.org/en/) to download the application.
 - **NPM Install** - The `package.json` file included in this Note Taker repo already lists all NPM packages and dependencies that are required to successfully run this application. Please make sure to run the `NPM install` in the root directory to access all used\required packages.
+
+### Reference Material
+
+When developing this assignment, I reference and leverages the sample code provided in class for `Activity 15 - (Mini Project) Hot Restaurant`. Please note that I refactored / modified any leveraged code to meet the functionality needs for this note taker assignment.
+
+- Click on the provided link to access the activity's repo: [Activity 15 - Mini Project- Hot Restaurant](https://github.com/the-Coding-Boot-Camp-at-UT/UT-AUS-FSF-PT-04-2020-U-C-MTTH/tree/master/01-Class-Content/11-express/01-Activities/15-HotRestaurant).
 
 ## Final Output
 
