@@ -62,7 +62,7 @@ module.exports = function (app) {
 		let noteIndex = 0;
 		// for loop to delete note
 		for (var i = 0; i < notesObject.length; i++) {
-			if (notesObject[i].id === req.params.id) {
+			if (notesObject[i].id === parseInt(req.params.id)) {
 				noteIndex = i;
 				break;
 			}
