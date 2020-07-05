@@ -57,4 +57,4 @@ The demo recording below demonstrates that the note taker application I develope
 
 The application allows the users to (a) create and save notes, (b) view previous notes, and (c) delete previously saved notes.
 
-![Note Take Demo](Demo/Note_Taker_Demo.wedm)
+![Note Take Demo](./Demo/Note_Taker_Demo.wedm)
