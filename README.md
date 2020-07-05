@@ -15,8 +15,8 @@ This section will be updated when ReadMe is finalized.
 
 Links will be provided for each submission item once the assignment is complete and deployed.
 
-- URL link to GitHub repo used to develop this assignment
-- URL link to deployed application on Heroku
+- URL link to GitHub repo used to develop this assignment - (GitHub Repo for Note Taker Assignment)[https://github.com/KEDuran/Note_Taker]
+- URL link to deployed application on Heroku - (Note Take Application on Heroku)[https://note-taker-ked.herokuapp.com/]
 
 ## Assignment Scope
 
