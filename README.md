@@ -61,4 +61,6 @@ The application allows the users to:
 - view previous notes
 - delete previously saved notes
 
+### Demo Recording
+
 ![Note Take Demo](./Demo/Note_Taker_Demo.gif)
