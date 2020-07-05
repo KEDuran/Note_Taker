@@ -20,7 +20,7 @@ Please use the table of contents provided below to navigate through the ReadMe.
 
 Here are the links to the required MVP items for this assignment. I will also be submitting these same items/links on the Boot Camp Spot portal.
 
-- URL link to GitHub repo used to develop the application for this assignment - [GitHub Repo for Note Taker Assignment](https://github.com/KEDuran/Note_Taker)
+- URL link to GitHub repo used for this assignment - [GitHub Repo for Note Taker Assignment](https://github.com/KEDuran/Note_Taker)
 - URL link to deployed application on Heroku - [Note Taker Application on Heroku](https://note-taker-ked.herokuapp.com/)
 
 ## Assignment Scope
