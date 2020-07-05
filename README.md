@@ -42,11 +42,7 @@ Here is a list of the acceptance criteria required for this assignment to meet M
 
 - Application should allow users to delete previously saved notes.
 
-## Installation and Testing
-
-Please reference the subsections below for installation and testing instructions.
-
-### Installation
+## Installation
 
 In order to successfully develop and test this assignment, the following items must be installed and/or accessible from your working environment (i.e. laptop, computer, etc.).
 
