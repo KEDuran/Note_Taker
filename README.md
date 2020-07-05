@@ -1,4 +1,4 @@
-# Homework Assignment 11 - Note Taker
+# Homework Assignment 11 - Note Taker Application
 
 ![GitHub Language Count](https://img.shields.io/github/languages/count/KEDuran/Note_Taker?label=Languages%20Used&logo=GitHub)
 ![GitHub Followers](https://img.shields.io/github/followers/KEDuran?color=orange&label=Followers&logo=GitHub)
@@ -7,7 +7,7 @@
 
 The goal of this assignment is to create an application that can be used to write, save, and delete notes entered by an end user. This application has both a front-end and back-end environment. The code for the front-end of the note taker application was already provided, so the main goal for students was to develop the back-end of the application and connect the developed back-end to the provided front-end code.
 
-### Resource Reference
+### Reference Resources
 
 When developing this assignment, I reference and leverages the sample code provided in class for `Activity 15 - (Mini Project) Hot Restaurant`. Please note that I refactored / modified any leveraged code to meet the functionality needs for this note taker assignment.
 
