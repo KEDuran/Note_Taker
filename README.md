@@ -1,22 +1,27 @@
-# Homework Assignment 11 - Note Taker
+# Homework Assignment 11 - Note Taker Application
 
 ![GitHub Language Count](https://img.shields.io/github/languages/count/KEDuran/Note_Taker?label=Languages%20Used&logo=GitHub)
 ![GitHub Followers](https://img.shields.io/github/followers/KEDuran?color=orange&label=Followers&logo=GitHub)
 
 ## Description
 
-The goal of this assignment is to create an application that can be used to write, save, and delete notes entered by an end user. This application has both a front-end and back-end environment.
+The goal of this assignment is to create an application that can be used to write, save, and delete notes entered by an end user. This application has both a front-end and back-end environment. The code for the front-end of the note taker application was already provided, so the main goal for students was to develop the back-end of the application and connect the developed back-end code to the provided front-end code.
 
 ## Table of Contents
 
-This section will be updated when ReadMe is finalized.
+Please use the table of contents provided below to navigate through the ReadMe.
+
+- [Links for Submission Items](#links-for-submission-items)
+- [Assignment Scope](#assignment-scope)
+- [Installation](#installation)
+- [Final Output](#final-output)
 
 ## Links for Submission Items
 
-Links will be provided for each submission item once the assignment is complete and deployed.
+Here are the links to the required MVP items for this assignment. I will also be submitting these same items/links on the Boot Camp Spot portal.
 
-- URL link to GitHub repo used to develop this assignment
-- URL link to deployed application on Heroku
+- URL link to GitHub repo used to develop this assignment - [GitHub Repo for Note Taker Assignment](https://github.com/KEDuran/Note_Taker)
+- URL link to deployed application on Heroku - [Note Take Application on Heroku](https://note-taker-ked.herokuapp.com/)
 
 ## Assignment Scope
 
@@ -34,7 +39,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 ### Acceptance Criteria
 
-Here is a list of the acceptance criteria required for this assignment to meet MVP.
+Here is a list of the acceptance criteria for this assignment that was provided by the Trilogy Team.
 
 - Application should allow users to create and save notes.
 
@@ -42,19 +47,31 @@ Here is a list of the acceptance criteria required for this assignment to meet M
 
 - Application should allow users to delete previously saved notes.
 
-## Installation and Testing
-
-Please reference the subsections below for installation and testing instructions.
-
-### Installation
+## Installation
 
 In order to successfully develop and test this assignment, the following items must be installed and/or accessible from your working environment (i.e. laptop, computer, etc.).
 
 #### Make Sure to Install / Run
 
-- **Node.js** - Make sure Node.js is installed in your machine. If Node.js is not installed on your machine, [click here](https://nodejs.org/en/) to download the application.
-- **NPM Install** - The `package.json` file included in this Note Taker repo already lists all NPM modules and depencies that are required to successfully run this application. Please make sure to run the `NPM install` in the root directory to access all used\required modules.
+- **Node.js** - Make sure `Node.js` is installed in your machine. If `Node.js` is not installed on your machine, [click here](https://nodejs.org/en/) to download the application.
+- **NPM Install** - The `package.json` file included in this Note Taker repo already lists all Node modules, NPM packages, and other dependencies that are required to successfully run this application. Please make sure to run the `NPM install` in the root directory to access all required modules/packages.
 
-### Testings
+## Reference Material
 
-When checking to see if all applicable unit tests pass , make sure to run the `npm run test` command in your terminal each time you would like to test the application.
+When developing this assignment, I referenced and leveraged the sampled code provided in class for `Activity 15 (Mini-Project) - Hot Restaurant`. Please note that I refactored / modified any leveraged code to meet the functionality needs for this note taker application.
+
+- Click on the provided link to access the repo for Activity 15: [Activity 15 - Mini Project- Hot Restaurant](https://github.com/the-Coding-Boot-Camp-at-UT/UT-AUS-FSF-PT-04-2020-U-C-MTTH/tree/master/01-Class-Content/11-express/01-Activities/15-HotRestaurant).
+
+## Final Output
+
+The demo recording below demonstrates that the note taker application developed for this assignment meets the acceptance criteria outlined for this assignment. The application allows the users to:
+
+- create and save notes
+- view previous notes
+- delete previously saved notes
+
+### Demo Recording
+
+The demo recording listed below shows the functionality of the Note Taker application that I currently hvae deployed in Heroku.
+
+![Note Take Demo](./Demo/Note_Taker_Demo.gif)
