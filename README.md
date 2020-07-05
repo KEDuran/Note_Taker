@@ -55,6 +55,10 @@ In order to successfully develop and test this assignment, the following items m
 
 The demo recording below demonstrates that the note taker application I developed and deployed on Heroku for this assignment meets the acceptance criteria outlined for this assignment.
 
-The application allows the users to (a) create and save notes, (b) view previous notes, and (c) delete previously saved notes.
+The application allows the users to:
+
+- create and save notes
+- view previous notes
+- delete previously saved notes
 
 ![Note Take Demo](./Demo/Note_Taker_Demo.gif)
