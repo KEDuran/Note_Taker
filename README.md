@@ -14,6 +14,7 @@ Please use the table of contents provided below to navigate through the ReadMe.
 - [Links for Submission Items](#links-for-submission-items)
 - [Assignment Scope](#assignment-scope)
 - [Installation](#installation)
+- [Reference Material](#reference-material)
 - [Final Output](#final-output)
 
 ## Links for Submission Items
